@@ -1,0 +1,30 @@
+:root{
+    --color-light-gray: #F3F4F6;
+    --color-grey: #858585;
+    --color-primary: #700CB3;
+    --color-white:#FFFFFF;
+
+    --font-major-size: 12px;
+    --font-second-size: 14px;
+    --text-bold:bold;
+    --card-text-block:10px;
+    --font-base-opensans:'Open Sans', sans-serif;
+    --font-inter: 'Inter', sans-serif;
+
+
+    --card-sidecard-size:250px;
+    --card-border-radius: 7px;
+    --card-margin-block:10px;
+    --card-box-shadow:0px 0px 2px 2px rgb(128, 128, 128, 0.2);
+    --card-padding-inline: 1.5rem;
+
+    --averter-size:19px;
+
+}
+
+
+
+.card-background{
+    background-color: white;
+}
+

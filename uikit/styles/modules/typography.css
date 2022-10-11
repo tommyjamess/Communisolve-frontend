@@ -1,0 +1,21 @@
+body{
+    font-family: var(--font-base-opensans);
+}
+a{
+    font-family: var(--font-inter);
+}
+
+.company h1{
+    font-size:23px;
+}
+.side-menu a{
+    text-decoration: none;
+    font-weight: 400;
+}
+.side-menu a p{
+    font-size: var(--font-major-size);
+
+}
+.selected{
+    font-weight: bold !important;
+}

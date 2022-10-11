@@ -1,0 +1,16 @@
+input{
+    padding-inline: 10px;
+    border: none;
+    color: var(--color-grey);
+    background-color: transparent;
+    /* transform: translateY(-5%); */
+}
+input:focus{
+    outline: none !important;
+    border-color: none;
+    background-color: transparent;
+    /* border:0.001px solid blue; */
+}
+.search-bar input{
+    height: 12px;
+}

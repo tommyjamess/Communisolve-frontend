@@ -1,0 +1,58 @@
+.container-border{
+    border-radius: var(--card-border-radius);
+}
+.main-container{
+    margin-inline: 1rem;
+    padding-block: 1rem;
+}
+
+.body-container{
+    padding-inline: 50px;
+    min-height: 31rem;
+    background-color: var(--color-light-gray);
+}
+
+.bars-container{
+    min-height: 28rem;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.side-menu-bar{
+    min-height: 6rem;
+    min-width: 150px;
+    flex-basis: 10%;
+}
+.side-bar{
+    min-height: 6rem;
+    min-width: 220px;
+    flex-basis: 17%;
+}
+.main-bar{
+    /* min-width:550px; */
+    flex-basis: 40%;
+}
+.session-filter{
+    margin-bottom: var(--card-margin-block);
+}
+.sessions{
+    min-height: 5rem;
+    background-color: var(--color-white);
+    padding-inline: var(--card-padding-inline);
+    padding-block: var(--card-margin-block);
+    margin-block: var(--card-margin-block);
+}
+
+
+.session-outer{
+    max-height: 35rem;
+    overflow-y: auto;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    
+}
+
+.session-outer::-webkit-scrollbar{
+    display: none;
+}

@@ -1,0 +1,35 @@
+.search-bar button{
+    border: none;
+    background-color:var(--color-light-grey);
+    font-size: 14px;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.join-btn button{
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    background-color: var(--color-primary);
+    border: none;
+    border-radius: var(--card-border-radius);
+    height: 40px;
+    margin-block: var(--card-margin-block);
+}
+.session-reactions{
+    display: flex;
+    justify-content: space-between;
+    padding-block: var(--card-margin-block);
+}
+.session-reactions button{
+    border: none;
+    background-color: var(--color-white);
+    display: flex;
+    
+    align-items: center;
+    color: var(--color-grey);
+}
+.session-reactions button p{
+    margin-left: 5px;
+}

@@ -1,0 +1,31 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.logo{
+    margin-right: 8px;
+    flex-basis: 10%;
+}
+.menu{
+    flex-basis: 80%;
+}
+.logo-name{
+    display: flex;
+}
+.search-bar{
+    /* background-color: var(--color-light-gray); */
+    border: 1px solid var(--color-light-gray);
+    padding-inline: 5px;
+    border-radius: 10px;
+    height: 22px;
+    margin-bottom: 8px;
+    background-color: var(--color-light-gray);
+}
+
+
+
+

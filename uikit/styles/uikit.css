@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" );
+
+@import url(./modules/main.css);
+@import url(./modules/typography.css);
+@import url(./modules/images.css);
+@import url(./modules/button.css);
+@import url(./modules/card.css);
+@import url(./modules/form.css);
+@import url(./modules/menu.css);
+@import url(./modules/uitility.css);
+@import url(./modules/containers.css);
+@import url(./modules/content.css);
+@import url(./modules/variables.css);
+@import url(./modules/links.css);

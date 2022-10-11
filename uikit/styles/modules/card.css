@@ -1,0 +1,130 @@
+.card-horizontal-space{
+    margin-block: var(--card-margin-block);
+}
+
+
+/* sidebar card settings  */
+.side-bar--divsize{
+    min-height: var(--card-sidecard-size);
+    border-radius: var(--card-border-radius);
+}
+.card-shadow{
+    box-shadow: var(--card-box-shadow);
+}
+
+.card-title{
+    font-size: var(--font-major-size);
+    color: var(--color-grey);
+    text-align: left;
+    font-weight: var(--text-bold);
+    padding-inline: var(--card-padding-inline);
+    padding-block: var(--card-text-block);
+    border-bottom: 1px solid grey;
+}
+.card-style{
+    height:8px;
+    border-radius: var(--card-border-radius) var(--card-border-radius) 0px 0px;
+    background-color: rgba(112, 12, 179, 0.3);
+}
+
+.session-category{
+    display: flex;
+    padding-inline: var(--card-padding-inline);
+    padding-block: var(--card-margin-block);
+    border-bottom: 1px solid grey;
+    margin-inline: 5px;
+}
+.session-category .avater{
+    flex-basis: 15%;
+}
+.category-list{
+    flex-basis: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+.general-session-filter{
+    padding-inline: 2rem;
+}
+.general-session-filter a{
+    text-decoration: none;
+}
+.general-session-filter p{
+    font-size: var(--font-second-size);
+    font-weight: var(--text-bold);
+    color: var(--color-grey);
+}
+
+
+
+/* session card  */
+
+
+.session-card{
+    min-height: 510px;
+    width: 100%;
+}
+.session-header{
+    display: flex;
+}
+.user-info{
+    flex-basis: 60%;
+    display: flex;
+    align-items:center;
+}
+.user-info p{
+    font-size: 14px;
+    color: var(--color-grey);
+    margin-left: 10px;
+}
+.time-menu{
+    flex-basis: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.start-time{
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+}
+.start-time .actual-time{
+    color: var(--color-grey);
+}
+.start-title{
+    color: black;
+    margin-right: 5px;
+}
+.card-menu h1{
+    text-align: center;
+    color: var(--color-grey);
+}
+
+.session-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-block: var(--card-padding-inline);
+    font-size: 15px;
+}
+.session-title p{
+    color: var(--color-grey);
+    font-size: 13px;
+}
+.session-description p{
+    font-size: 14px;
+    color: var(--color-grey);
+}
+.session-image{
+    padding-block: var(--card-margin-block);
+}
+.joined-user{
+    display: flex;
+    align-items: center;
+}
+.joined-user img{
+    width: var(--averter-size);
+}
+.joined-user p{
+    font-size: var(--font-major-size);
+    color: var(--color-grey);
+    margin-left: 5px;
+}

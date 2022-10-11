@@ -1,0 +1,24 @@
+.logo img{
+    width: 18px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+.menu img{
+    width: 20px;
+}
+.side-menu a img{
+    width: 22px;
+}
+.other-utility img{
+    margin-inline: 2px;
+}
+.session-category img{
+    width: 30px;
+}
+
+.user-info img{
+    width: 30px;
+}
